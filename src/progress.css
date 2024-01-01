@@ -1,0 +1,28 @@
+.maincontainer {
+  width: 300px;
+  height: 20px;
+  margin: 20px auto;
+}
+
+.green-progress {
+  height: 100%;
+  background-color: #4caf50; /* Green color */
+  position: relative;
+  text-align: center;
+  color: #fff; /* Text color */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add space between percentage and text */
+  border-radius: 5px; /* Add a small border radius */
+  overflow: hidden; /* Hide overflow caused by border radius */
+}
+
+.green-progress span {
+  margin-left: 5px; /* Adjust margin for better spacing */
+}
+
+/* Add transition effect for a smoother width change */
+.green-progress {
+  transition: width 0.3s ease-in-out;
+}
